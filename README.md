@@ -17,7 +17,7 @@ It features **pass networks**, **player heatmaps**, and key match statistics vis
 ## 🗂️ Project Structure
 
 ```
-fifa_wc_2022_final/
+euro_2024/
 ├── data/
 │   ├── imgs/         		# Folder for every virtualization created
 │   ├── passes.csv           	# Cleaned passes data
