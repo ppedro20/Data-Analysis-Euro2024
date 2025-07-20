@@ -1,17 +1,7 @@
-# ⚽ Data Analysis of FIFA World Cup Final 2022 (Argentina vs France)
+# ⚽ Data Analysis of EURO 2024
 
-A data analytics project analyzing the **FIFA World Cup 2022 Final** between Argentina and France using **event-level match data** from [StatsBomb Open Data](https://github.com/statsbomb/open-data).
-It features **pass networks**, **player heatmaps**, and key match statistics visualized in an interactive **Tableau dashboard**.
-
----
-
-## 📊 Dashboard Preview
-
-🔗 **[View Tableau Dashboard Here](https://public.tableau.com/app/profile/your-link)**
-
-<img src="preview.png" alt="Dashboard Preview" width="800"/>
-
----
+A data analytics project analyzing the **EURO 2024** using **event-level match data** from [StatsBomb Open Data](https://github.com/statsbomb/open-data).
+It features **pass networks**, **player heatmaps**, and key match statistics visualized in an interactive **Streamlit dashboard**.
 
 ## 🚀 Project Overview
 
@@ -19,8 +9,8 @@ It features **pass networks**, **player heatmaps**, and key match statistics vis
 | ------------------ | ----------------------------------------------- |
 | 📈 Pass Networks   | Visualize team passing structure & connectivity |
 | 🔥 Player Heatmaps | Show ball touches & movement patterns           |
-| 📋 Match Stats     | Summarize xG, possession, shots, pass accuracy  |
-| 🌐 Interactive     | Filters for teams, players, and match minutes   |
+| 📋 Match Stats     | Summarize xG, shots, goals                      |
+| 🌐 Interactive     | Filters for teams and players                   |
 
 ---
 
@@ -45,9 +35,9 @@ fifa_wc_2022_final/
 ## 🔥 Tools & Technologies
 
 - 🐍 **Python**: pandas, numpy, statsbombpy (data cleaning & preprocessing)
-- 📊 **Tableau**: interactive dashboards (heatmaps, networks, KPIs)
+- 📊 **Streamlit**: interactive dashboards (heatmaps, networks, KPIs)
 - 📦 **StatsBomb Open Data**: raw JSON match data
-- 📁 CSV for Tableau-ready datasets
+- 📁 CSV for datasets
 
 ---
 
@@ -80,13 +70,6 @@ Run the preprocessing script to create `passes.csv` and `touches.csv`:
 ```bash
 python notebooks/preprocess.py
 ```
-
-### 4️⃣ Open in Tableau
-
-- Load `tableau_dashboard.twb` in Tableau Desktop or Tableau Public.
-- Explore heatmaps, pass networks, and match statistics.
-
----
 
 ## 📌 License
 
