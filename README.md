@@ -25,7 +25,7 @@ fifa_wc_2022_final/
 ├── notebooks/
 │   ├── passing-networks.ipynb	# Python script for the creation of passing networks
 │   └── preprocess.ipynb     	# Python script for data cleaning
-├── tableau_dashboard.twb    	# Tableau workbook file
+├── streamlit.py            	# Streamlit workbook file
 ├── README.md                	# Project documentation
 └── preview.png              	# Dashboard screenshot
 ```
