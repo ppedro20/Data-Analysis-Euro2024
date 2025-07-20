@@ -39,38 +39,6 @@ fifa_wc_2022_final/
 - 📦 **StatsBomb Open Data**: raw JSON match data
 - 📁 CSV for datasets
 
----
-
-## 📝 Data Source
-
-- [StatsBomb Open Data GitHub](https://github.com/statsbomb/open-data)
-- "competition_id" : 55
-- "season_id" : 282
-
----
-
-## ⚡ Quick Start Guide
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/yourusername/fifa_wc_2022_final.git
-cd fifa_wc_2022_final
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-pip install pandas numpy statsbombpy
-```
-
-### 3️⃣ Preprocess Data
-
-Run the preprocessing script to create `passes.csv` and `touches.csv`:
-
-```bash
-python notebooks/preprocess.py
-```
 
 ## 📌 License
 
