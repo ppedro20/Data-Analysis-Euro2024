@@ -44,7 +44,8 @@ fifa_wc_2022_final/
 ## 📝 Data Source
 
 - [StatsBomb Open Data GitHub](https://github.com/statsbomb/open-data)
-- Match ID: `3857256` – FIFA World Cup 2022 Final (Argentina vs France)
+- "competition_id" : 55
+- "season_id" : 282
 
 ---
 
