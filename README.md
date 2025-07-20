@@ -29,14 +29,15 @@ It features **pass networks**, **player heatmaps**, and key match statistics vis
 ```
 fifa_wc_2022_final/
 ├── data/
-│   ├── 3857256.json         # Raw StatsBomb event data
-│   ├── passes.csv           # Cleaned passes data
-│   ├── touches.csv          # Player ball touches
+│   ├── imgs/         		# Folder for every virtualization created
+│   ├── passes.csv           	# Cleaned passes data
+│   └── touches.csv          	# Player ball touches
 ├── notebooks/
-│   └── preprocess.ipynb     # Python script for data cleaning
-├── tableau_dashboard.twb    # Tableau workbook file
-├── README.md                # Project documentation
-└── preview.png              # Dashboard screenshot
+│   ├── passing-networks.ipynb	# Python script for the creation of passing networks
+│   └── preprocess.ipynb     	# Python script for data cleaning
+├── tableau_dashboard.twb    	# Tableau workbook file
+├── README.md                	# Project documentation
+└── preview.png              	# Dashboard screenshot
 ```
 
 ---
